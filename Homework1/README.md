@@ -30,10 +30,12 @@ python run_point_transform.py
 
 ## Results 
 ### Basic Transformation
-<img src="pics/global_demo.gif" alt="alt text" width="800">
+<img src="pics/point1.gif" alt="alt text" width="800">
 
 ### Point Guided Deformation:
-<img src="pics/point_demo.gif" alt="alt text" width="800">
+<img src="pics/point1.gif" alt="alt text" width="800">
+<img src="pics/point2.gif" alt="alt text" width="800">
+<img src="pics/point3.gif" alt="alt text" width="800">
 
 ## Acknowledgement
 
