@@ -27,7 +27,7 @@ def apply_transform(image, scale, rotation, translation_x, translation_y, flip_h
     M[1, 2] += translation_y
 
     # Apply the transformation
-    transformed_image = cv2.warpAffine(image, M, (image.shape[1], image.shape[0]))
+    transformed_image = cv2.warpAffine(image, M, (image.shape[1], image.shape[0]),borderMode=cv2.BORDER_CONSTANT, borderValue=(255, 255, 255))
 
     # Apply horizontal flip if specified
     if flip_horizontal:
