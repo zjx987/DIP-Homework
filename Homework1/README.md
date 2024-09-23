@@ -33,9 +33,9 @@ python run_point_transform.py
 <img src="pics/point1.gif" alt="alt text" width="800">
 
 ### Point Guided Deformation:
-<img src="pics/point1.gif" alt="alt text" width="800">
-<img src="pics/point2.gif" alt="alt text" width="800">
-<img src="pics/point3.gif" alt="alt text" width="800">
+<img src="pics/point1.png" alt="alt text" width="800">
+<img src="pics/point2.png" alt="alt text" width="800">
+<img src="pics/point3.png" alt="alt text" width="800">
 
 ## Acknowledgement
 
