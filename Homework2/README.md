@@ -44,9 +44,11 @@ python train.py
 <img src="pics/image3.png" alt="alt text" width="800">
 
 ### Pix2Pix:
-<img src="pics/point1.png" alt="alt text" width="800">
-<img src="pics/point2.png" alt="alt text" width="800">
-<img src="pics/point3.png" alt="alt text" width="800">
+<img src="pics/result_1.png" alt="alt text" width="200">
+<img src="pics/result_2.png" alt="alt text" width="200">
+<img src="pics/result_3.png" alt="alt text" width="200">
+<img src="pics/result_4.png" alt="alt text" width="200">
+<img src="pics/result_5.png" alt="alt text" width="200">
 
 ## Acknowledgement
 
