@@ -39,9 +39,9 @@ python train.py
 
 ## Results 
 ### Poisson Image Editing:
-<img src="pics/image.png" alt="alt text" width="800">
-<img src="pics/image2.png" alt="alt text" width="800">
-<img src="pics/image3.png" alt="alt text" width="800">
+<img src="pics/image.png" alt="alt text" width="400">
+<img src="pics/image2.png" alt="alt text" width="400">
+<img src="pics/image3.png" alt="alt text" width="400">
 
 ### Pix2Pix:
 <img src="pics/result_1.png" alt="alt text" width="400">
