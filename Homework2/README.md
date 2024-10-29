@@ -17,7 +17,7 @@ pip install gradio
 ```
 ## Datasets
 
-Download the datasets using the following script.
+Download the datasets using the following script.`cityscapes`: 2975 images from the [Cityscapes training set](https://www.cityscapes-dataset.com/).
 
 ```
 bash download_dataset.sh cityscapes
