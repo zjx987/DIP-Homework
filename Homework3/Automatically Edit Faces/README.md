@@ -33,5 +33,5 @@ Click the effect(smile,close_eyes,close_mouth,enlarge_eyes,face_slimming) you wa
 <img src="pics/result_5.png" alt="alt text" width="400">
 
 ## Acknowledgement
->📋 Thanks for the code proposed by
->[Paper: Image-to-Image Translation with Conditional Adversarial Nets](https://phillipi.github.io/pix2pix/).
+- [DragGAN](https://vcai.mpi-inf.mpg.de/projects/DragGAN/): [Implementaion ](https://github.com/XingangPan/DragGAN) 
+- [Facial Landmarks Detection](https://github.com/1adrianb/face-alignment)
