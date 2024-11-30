@@ -6,26 +6,22 @@
 To install requirements:
 
 ```setup
-conda create --name DIPwithPyTorch python=3.8
+conda create -n stylegan3 python==3.10 -y
 conda activate DIPwithPyTorch
-pip install torch==2.2.1 torchvision==0.17.1 torchaudio==2.2.1 --index-url https://download.pytorch.org/whl/cu121
-pip install gradio
-```
-## Datasets
-
-Download the datasets using the following script.`cityscapes`: 2975 images from the [Cityscapes training set](https://www.cityscapes-dataset.com/).
-
-```
-bash download_dataset.sh cityscapes
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
+pip install face-alignment
 ```
 
 ## Running
 
-To run Pix2Pix, run:
+run:
 
 ```
-python train.py
+python gradio.py
 ```
+Click the effect(smile,close_eyes,close_mouth,enlarge_eyes,face_slimming) you want to achieve, then click Start.
+<img src="pics/result_1.png" alt="alt text" width="400">
 
 ## Results 
 
@@ -37,5 +33,5 @@ python train.py
 <img src="pics/result_5.png" alt="alt text" width="400">
 
 ## Acknowledgement
->📋 Thanks for the algorithms proposed by
+>📋 Thanks for the code proposed by
 >[Paper: Image-to-Image Translation with Conditional Adversarial Nets](https://phillipi.github.io/pix2pix/).
