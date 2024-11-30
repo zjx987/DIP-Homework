@@ -36,3 +36,6 @@ python train.py
 <img src="pics/result_5.png" alt="alt text" width="400">
 
 ## Acknowledgement
+>📋 Thanks for the algorithms proposed by
+>[Paper: Image-to-Image Translation with Conditional Adversarial Nets](https://phillipi.github.io/pix2pix/).
+
