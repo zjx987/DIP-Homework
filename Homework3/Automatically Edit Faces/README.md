@@ -31,6 +31,11 @@ Click the effect(smile,close_eyes,close_mouth,enlarge_eyes,face_slimming) you wa
 <img src="pics/closeeye1.png" alt="alt text" width="400">
 <img src="pics/closeeye2.png" alt="alt text" width="400">
 
+### close mouth:
+<img src="pics/closemouth3.png" alt="alt text" width="400">
+<img src="pics/closemouth.png" alt="alt text" width="400">
+<img src="pics/closemouth1.png" alt="alt text" width="400">
+<img src="pics/closemouth2.png" alt="alt text" width="400">
 
 ## Acknowledgement
 - [DragGAN](https://vcai.mpi-inf.mpg.de/projects/DragGAN/): [Implementaion ](https://github.com/XingangPan/DragGAN) 
