@@ -43,6 +43,12 @@ Click the effect(smile,close_eyes,close_mouth,enlarge_eyes,face_slimming) you wa
 <img src="pics/smile2.png" alt="alt text" width="400">
 <img src="pics/smile3.png" alt="alt text" width="400">
 
+### enlarge eyes:
+<img src="pics/enlarge.png" alt="alt text" width="400">
+<img src="pics/enlarge1.png" alt="alt text" width="400">
+<img src="pics/enlarge2.png" alt="alt text" width="400">
+<img src="pics/enlarge3.png" alt="alt text" width="400">
+
 ## Acknowledgement
 - [DragGAN](https://vcai.mpi-inf.mpg.de/projects/DragGAN/): [Implementaion ](https://github.com/XingangPan/DragGAN) 
 - [Facial Landmarks Detection](https://github.com/1adrianb/face-alignment)
