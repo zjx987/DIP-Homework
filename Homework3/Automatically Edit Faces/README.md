@@ -21,13 +21,13 @@ run:
 python gradio.py
 ```
 Click the effect(smile,close_eyes,close_mouth,enlarge_eyes,face_slimming) you want to achieve, then click Start.
-<img src="pics/gradio.png" alt="alt text" width="400">
+<img src="pics/gradio.png" alt="alt text" width="600">
 
 ## Results 
 
 ### close eyes:
 <img src="pics/closeeye.png" alt="alt text" width="400">
-<img src="pics/closeeye3.png" alt="alt text" width="400">
+<img src="pics/closeeye3png.png" alt="alt text" width="400">
 <img src="pics/closeeye1.png" alt="alt text" width="400">
 <img src="pics/closeeye2.png" alt="alt text" width="400">
 
