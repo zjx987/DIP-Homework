@@ -21,16 +21,16 @@ run:
 python gradio.py
 ```
 Click the effect(smile,close_eyes,close_mouth,enlarge_eyes,face_slimming) you want to achieve, then click Start.
-<img src="pics/result_1.png" alt="alt text" width="400">
+<img src="pics/gradio.png" alt="alt text" width="400">
 
 ## Results 
 
-### Pix2Pix:
-<img src="pics/result_1.png" alt="alt text" width="400">
-<img src="pics/result_2.png" alt="alt text" width="400">
-<img src="pics/result_3.png" alt="alt text" width="400">
-<img src="pics/result_4.png" alt="alt text" width="400">
-<img src="pics/result_5.png" alt="alt text" width="400">
+### close eyes:
+<img src="pics/closeeye.png" alt="alt text" width="400">
+<img src="pics/closeeye3.png" alt="alt text" width="400">
+<img src="pics/closeeye1.png" alt="alt text" width="400">
+<img src="pics/closeeye2.png" alt="alt text" width="400">
+
 
 ## Acknowledgement
 - [DragGAN](https://vcai.mpi-inf.mpg.de/projects/DragGAN/): [Implementaion ](https://github.com/XingangPan/DragGAN) 
