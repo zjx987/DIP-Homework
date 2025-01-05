@@ -86,9 +86,7 @@ class GaussianRenderer(nn.Module):
         dx_T = dx.reshape(N, H, W, 1, 2)
         dx = dx.reshape(N, H, W, 2, 1)
         covs2D_inv = torch.inverse(covs2D.reshape(N, 1, 1, 2, 2))
-        # P = torch.matmul(dx, torch.matmul(covs2D_inv, dx))
-        P = dx_T @ covs2D_inv @ dx
-        
+        P = dx_T @ covs2D_inv @ dx        
         gaussian = torch.exp(-0.5 * P.squeeze(-1).squeeze(-1)) / (2 * np.pi * torch.det(covs2D).sqrt()[..., None, None])
 
         return gaussian
