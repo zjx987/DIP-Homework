@@ -42,6 +42,7 @@ class GaussianRenderer(nn.Module):
         # 3. Project to screen space using camera intrinsics
         screen_points = cam_points @ K.T  # (N, 3)
         means2D = screen_points[..., :2] / screen_points[..., 2:3] # (N, 2)
+        
         # 4. Transform covariance to camera space and then to 2D
         # Compute Jacobian of perspective projection
         J_proj = torch.zeros((N, 2, 3), device=means3D.device)
@@ -52,10 +53,12 @@ class GaussianRenderer(nn.Module):
         J_proj[..., 0, 2] = - K[0, 0] / (cam_points[..., 2] ** 2) * cam_points[..., 0]
         J_proj[..., 1, 1] = K[1, 1] / cam_points[..., 2]
         J_proj[..., 1, 2] = - K[1, 1] / (cam_points[..., 2] ** 2) * cam_points[..., 1]
+        
         # Transform covariance to camera space
         ### FILL: Aplly world to camera rotation to the 3d covariance matrix
         ### covs_cam = ...  # (N, 3, 3)
         covs_cam = R @ covs3d @ R.T
+        
         # Project to 2D
         covs2D = J_proj @ covs_cam @ J_proj.permute(0, 2, 1)  # (N, 2, 2)
         
