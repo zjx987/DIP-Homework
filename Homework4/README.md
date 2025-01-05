@@ -85,7 +85,7 @@ $$
   P_{(\mathbf{x}, i)} = {-\frac{1}{2}} (\mathbf{x} - \boldsymbol{\mu}\_{i})^T \mathbf{\Sigma}\_{i}^{-1} (\mathbf{x} - \boldsymbol{\mu}\_{i})
 $$
 
-You need to fill [the code here](gaussian_renderer.py#L61) for computing the Gaussian values.
+You need to fill [the code here](gaussian_renderer.py#L67) for computing the Gaussian values.
 
 #### 2.4 Volume Rendering (α-blending)
 According to equations (1-3), using these `N` ordered 2D Gaussians, we can compute their alpha and transmittance values at each pixel location in an image.
