@@ -106,7 +106,7 @@ $$
   T_{(\mathbf{x}, i)} = \prod_{j \lt i} (1 - \alpha_{(\mathbf{x}, j)})
 $$
 
-Fill [the code here](gaussian_renderer.py#L83) for final rendering computation.
+Fill [the code here](gaussian_renderer.py#L94) for final rendering computation.
 
 After implementation, build your 3DGS model:
 ```
