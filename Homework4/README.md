@@ -14,7 +14,7 @@ conda install pytorch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1  pytorch-cuda
 ## Running
 
 First, we use Colmap to recover camera poses and a set of 3D points. Please refer to [11-3D_from_Multiview.pptx](https://rec.ustc.edu.cn/share/705bfa50-6e53-11ef-b955-bb76c0fede49) to review the technical details.
-The following steps use the [chair folder](data/chair)
+The following steps use the [chair folder](data/chair).
 ```
 python mvs_with_colmap.py --data_dir data/chair
 ```
