@@ -113,7 +113,7 @@ class GaussianModel(nn.Module):
         ### FILL:
         ### Covs3d = ...
         Covs3d = R @ S @ S @ R.transpose(-2, -1)
-        # Covs3d = torch.bmm(S, torch.bmm(R, S.transpose(-2, -1)))
+
 
         return Covs3d
 
